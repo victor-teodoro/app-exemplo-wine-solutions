@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myfirstapp.transSuccess"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_weight="0.05"
+        android:text="Transação processada com sucesso!"
+        android:background="@android:color/white"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteY="64dp"
+        tools:layout_editor_absoluteX="12dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:background="@android:color/white"
+        app:srcCompat="@drawable/check"
+        android:layout_weight="0.01" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="73dp"
+        android:layout_weight="0.09"
+        android:background="@android:color/white"
+        android:text="\n Obrigado!"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+</LinearLayout>
